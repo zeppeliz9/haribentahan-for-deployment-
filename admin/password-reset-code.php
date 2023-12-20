@@ -27,10 +27,10 @@ function send_password_reset($get_name,$get_email,$token)
         $mail->SMTPAuth = true;
 
         //SMTP username
-        $mail->Username = "haribentahan.verification@outlook.com";
+        $mail->Username = "";
 
         //SMTP password
-        $mail->Password = "Haribentahan.verify";// yahoo "Haribon.verify"; //;
+        $mail->Password = "";//
 
         //Enable TLS encryption;
         $mail->SMTPSecure = "tls";// PHPMailer::ENCRYPTION_STARTTLS;
