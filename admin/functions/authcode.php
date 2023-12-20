@@ -38,7 +38,7 @@ function sendemail_verify($name,$email,$verification_code)
         $mail->Username = "haribentahan.verification@outlook.com";
 
         //SMTP password
-        $mail->Password = "Haribentahan.verify";// yahoo "Haribon.verify"; //;
+        $mail->Password = "";
 
         //Enable TLS encryption;
         $mail->SMTPSecure = "tls";// PHPMailer::ENCRYPTION_STARTTLS;
